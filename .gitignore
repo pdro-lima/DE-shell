@@ -1,0 +1,4 @@
+*.csv
+*.xlsx
+/files/*.txt
+/files/*.html
