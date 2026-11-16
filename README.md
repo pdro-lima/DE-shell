@@ -5,4 +5,4 @@ Repo para compartilhamento da trilha de entregas de estudos dos conceitos de com
 Semana 1: shell e scripts\
 Semana 2: dados direto no terminal\
 Semana 3: Git\
-Semana 4: Docker\
+Semana 4: Docker
