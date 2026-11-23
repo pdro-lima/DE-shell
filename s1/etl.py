@@ -10,5 +10,5 @@ with entrada.open() as f:
 
 total = sum(float(l["valor"]) for l in linhas)
 with saida.open("w") as f:
-    f.write(f"linhas,total\n{len(linhas)},{total}\n")
-print(f"ok: {len(linhas)} linhas, total {total}")
+    f.write(f"linhas,total\n{len(linhas)},{total:.2f}\n")
+print(f"ok: {len(linhas)} linhas, total {total:.2f}")
