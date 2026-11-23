@@ -11,5 +11,5 @@ with entrada.open() as f:
 total = sum(float(l["valor"]) for l in linhas)
 media = total / len(linhas)
 with saida.open("w") as f:
-    f.write(f"linhas,total,media\n{len(linhas)},{total},{media}\n")
-print(f"ok: {len(linhas)} linhas, total {total}, media {media}")
+    f.write(f"linhas,total,media\n{len(linhas)},{total:.2f},{media:.2f}\n")
+print(f"ok: {len(linhas)} linhas, total {total:.2f}, media {media:.2f}")
