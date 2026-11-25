@@ -14,7 +14,7 @@ O que estudei: navegação e arquivos pelo terminal, redirecionamento (`>`, `>>`
 códigos de saída e scripts bash.
 
 O entregável é o `s1/rodar_etl.sh`, um script que roda um ETL em Python, grava
-um log com data e hora em e sai com erro se o Python falhar.
+um log com data e hora e sai com erro se o Python falhar.
 
 Decisões:
 - O script começa com `cd "$(dirname "$0")"`, então funciona chamado de qualquer pasta.
