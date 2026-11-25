@@ -1,3 +1,4 @@
 /files/*
 !/files/.gitkeep
 /s1/saida.csv
+.env
